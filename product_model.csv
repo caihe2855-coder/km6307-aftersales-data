@@ -1,0 +1,6 @@
+model_id,model_name,category,platform_group
+M01,SWC-300A,Single-Wafer Cleaning,PG_SWC
+M02,SWC-300B,Single-Wafer Cleaning,PG_SWC
+M03,SWC-300C,Single-Wafer Cleaning,PG_SWC
+M04,BWB-200,Batch Wet Bench Cleaning,PG_BWB
+M05,ECP-300,Electroplating,PG_ECP

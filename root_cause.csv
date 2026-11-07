@@ -1,0 +1,41 @@
+cause_id,name,description
+C01,FOUP placement sensor misaligned,Placement sensor shifted after maintenance and does not confirm the FOUP
+C02,Mapping sensor contaminated,Residue on the mapping sensor causes false slot readings
+C03,Robot servo amplifier fault,Servo amplifier output unstable under load
+C04,Robot teaching position offset,End-effector position drifted from taught coordinates
+C05,End-effector vacuum pad worn,Worn vacuum pad cannot seal against the wafer backside
+C06,Spin chuck pin wear,Worn chuck pins no longer centre and hold the wafer
+C07,Flow meter calibration drift,Measured flow deviates from actual flow
+C08,Chemical filter clogged,"Clogged filter raises pressure drop, restricts flow and can shed particles"
+C09,Recipe parameter overwritten after software update,Update reset a recipe value to its default
+C10,Heater thermocouple failure,Thermocouple reads wrongly so the heater over- or under-shoots
+C11,Suck-back valve setting incorrect,Suck-back too weak to stop residual liquid at the nozzle
+C12,Exhaust damper stuck,"Damper does not open fully, reducing exhaust"
+C13,Megasonic generator output degraded,Lower megasonic power reduces particle removal
+C14,Host communication configuration error,SECS/GEM settings or recipe naming do not match the fab host
+C15,Bath concentration sensor drift,Sensor drift leads to wrong chemical make-up
+C16,Anode wear,Worn or passivated anode gives uneven current distribution
+C17,Rectifier output board fault,Rectifier board delivers unstable plating current
+C18,Chamber lid O-ring degraded,Aged O-ring no longer seals the chamber lid
+C19,Drain line fitting loose,Loose fitting lets chemical escape at the drain line
+C20,Gripper actuator spring fatigue,Fatigued spring keeps the gripper from opening fully
+C21,Spin motor encoder fault,Encoder signal error makes speed control unstable
+C22,Fab facility supply out of spec,Facility exhaust capacity or DIW quality below requirement
+C23,Controller software version mismatch,Controller and host interface versions are incompatible
+C24,N2/IPA dry nozzle flow unstable,Unstable N2 or IPA flow at the dry step leaves droplets that dry into watermarks
+C25,Chemical crystal build-up at nozzle or chamber wall,Splash and mist residue (e.g. from hot SPM) dries into crystals that fall back as particles
+C26,Filter not fully primed after replacement,Gas left in a new filter releases micro-bubbles and particles in the first runs
+C27,Robot vacuum line restricted or kinked,Debris or a pinched line keeps the end-effector from reaching vacuum
+C28,Robot cable wear from repeated flexing,Broken conductors in the moving cable cause intermittent encoder signals
+C29,Heater element degraded,Heater cannot hold the bath or inline set-point
+C30,Chemical pump diaphragm worn,Worn diaphragm lowers delivery pressure and can leak chemical
+C31,Chemical replenishment valve stuck,"Spiking or make-up valve does not open, so concentration or level drifts"
+C32,IPA vapor supply unstable,IPA vapor concentration near the meniscus fluctuates during Marangoni drying
+C33,Wafer carrier guide wear,Worn carrier guides add contact points that generate particles
+C34,Quick dump rinse valve leaking,Leaking dump valve stops the tank from refilling and rinsing fully
+C35,Plating bath additive concentration out of range,"Accelerator, suppressor or leveler drifts from target, affecting thickness and fill"
+C36,Contact ring plating residue,Metal redeposited on contacts raises contact resistance unevenly around the edge
+C37,Lip seal worn or damaged,Electrolyte or rinsate wicks past the seal to the wafer edge and contacts
+C38,Equipment network cable or switch fault,Intermittent link between tool and host drops HSMS messages
+C39,Load port door or clamp mechanism misadjusted,FOUP is not clamped or the door cannot unlatch
+C40,Wafer cross-slotted or protruding in FOUP,Incoming wafer position in the FOUP is abnormal

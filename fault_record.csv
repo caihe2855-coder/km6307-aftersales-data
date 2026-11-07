@@ -1,0 +1,106 @@
+fault_id,case_id,symptom_id,description,hw_id,sw_id,issue_type,is_new_fault,category_raw,cause_id,cause_confirmed,resolved
+F0001,SC0001,S05,Wafer slip alarm at robot hand-off on chamber 8,HW02,SW02,After-sales,N,,C05,Y,Y
+F0002,SC0002,S13,Etch or clean uniformity out of spec on chamber 6,HW04,SW03,Process,N,,C09,Y,Y
+F0003,SC0003,S13,Etch or clean uniformity out of spec on chamber 7,HW04,SW03,Process,N,,,N,N
+F0004,SC0004,S12,Particle adders above spec after clean on chamber 5,HW18,SW03,Process,N,,C25,Y,Y
+F0005,SC0005,S05,Wafer slip alarm at robot hand-off on chamber 1,HW02,SW02,After-sales,N,,C05,Y,Y
+F0006,SC0006,S05,Wafer slip alarm at robot hand-off on chamber 8,HW02,SW02,After-sales,N,,C05,Y,Y
+F0007,SC0008,S05,Wafer slip alarm at robot hand-off on chamber 8,HW02,SW02,After-sales,N,,C04,Y,Y
+F0008,SC0010,S09,Chemical temperature out of range on chamber 2,HW06,SW04,After-sales,N,,C10,Y,Y
+F0009,SC0011,S14,Recipe download failure from host on chamber 2,HW17,SW01,Software,N,,C23,Y,Y
+F0010,SC0012,S06,Spin chuck speed error on chamber 2,HW03,SW03,After-sales,N,,C09,Y,Y
+F0011,SC0013,S23,Rinse resistivity not reached after quick dump rinse on tank 5,HW10,SW05,Process,N,,C22,Y,N
+F0012,SC0014,S15,Host communication timeout (HSMS T3/T7) on tank 3,HW17,SW01,Software,N,,C14,Y,N
+F0013,SC0016,S02,Wafer mapping error at load port on chamber 6,HW01,SW02,After-sales,N,,C02,Y,Y
+F0014,SC0017,S05,Wafer slip alarm at robot hand-off on chamber 3,HW02,SW02,After-sales,N,,C05,Y,Y
+F0015,SC0018,S05,Wafer slip alarm at robot hand-off on chamber 4,HW02,SW02,After-sales,N,,C05,N,N
+F0016,SC0019,S06,Spin chuck speed error on chamber 4,HW03,SW03,After-sales,N,,C09,Y,Y
+F0017,SC0020,S17,Plating thickness or uniformity out of spec on cell 6,HW12,SW06,Process,N,,C36,Y,Y
+F0018,SC0021,S09,Chemical temperature out of range on tank 2,HW06,SW04,After-sales,N,,,N,N
+F0019,SC0022,S12,Particle adders above spec after clean on chamber 3,HW18,SW03,Process,N,,C26,Y,Y
+F0020,SC0025,S22,Watermark or particles after drying on tank 5,HW11,SW05,Process,N,,C32,Y,Y
+F0021,SC0026,S14,Recipe download failure from host on chamber 4,HW17,SW01,Software,N,,C23,Y,Y
+F0022,SC0026,S05,Wafer slip alarm at robot hand-off on chamber 6,HW02,SW02,After-sales,N,,C04,Y,Y
+F0023,SC0027,S07,Wafer chipping or breakage in chamber on chamber 6,HW03,SW03,After-sales,N,,C04,Y,Y
+F0024,SC0028,S18,Plating current abnormal on cell 6,HW14,SW06,R&D,N,,C36,Y,N
+F0025,SC0029,S15,Host communication timeout (HSMS T3/T7) on chamber 2,HW17,SW01,Software,N,,C14,Y,Y
+F0026,SC0031,S08,Chemical flow rate out of range on chamber 3,HW05,SW04,After-sales,N,,C08,Y,Y
+F0027,SC0032,S05,Wafer slip alarm at robot hand-off on chamber 1,HW02,SW02,After-sales,N,,C04,Y,Y
+F0028,SC0033,S08,Chemical flow rate out of range on chamber 6,HW05,SW04,After-sales,N,,C08,Y,Y
+F0029,SC0034,S08,Chemical flow rate out of range on chamber 6,HW05,SW04,After-sales,N,,C07,Y,Y
+F0030,SC0035,S08,Chemical flow rate out of range on chamber 7,HW05,SW04,After-sales,N,,C08,Y,Y
+F0031,SC0036,S12,Particle adders above spec after clean on chamber 3,HW18,SW03,Process,N,,C26,Y,Y
+F0032,SC0037,S02,Wafer mapping error at load port on cell 6,HW01,SW02,After-sales,N,,C02,Y,Y
+F0033,SC0038,S01,FOUP door open failure at load port on chamber 2,HW01,SW02,After-sales,N,,,N,Y
+F0034,SC0039,S09,Chemical temperature out of range on chamber 1,HW06,SW04,After-sales,N,,C10,Y,Y
+F0035,SC0041,S09,Chemical temperature out of range on tank 5,HW06,SW04,After-sales,N,,C10,Y,Y
+F0036,SC0042,S12,Particle adders above spec after clean on chamber 2,HW18,SW03,Process,N,,C26,Y,Y
+F0037,SC0043,S05,Wafer slip alarm at robot hand-off on chamber 7,HW02,SW02,After-sales,N,,C04,Y,Y
+F0038,SC0044,S15,Host communication timeout (HSMS T3/T7) on tank 4,HW17,SW01,Software,N,,C23,Y,Y
+F0039,SC0045,S17,Plating thickness or uniformity out of spec on cell 6,HW12,SW06,Process,N,,C17,Y,Y
+F0040,SC0046,S07,Wafer chipping or breakage in chamber on chamber 7,HW03,SW03,After-sales,N,,C04,Y,Y
+F0041,SC0049,S05,Wafer slip alarm at robot hand-off on cell 2,HW02,SW02,After-sales,N,,C04,Y,Y
+F0042,SC0050,S19,Robot gripper did not release wafer on chamber 7,HW02,SW02,R&D,Y,robot gripper abnormal,C20,Y,Y
+F0043,SC0052,S07,Wafer chipping or breakage in chamber on chamber 4,HW03,SW03,After-sales,N,,C06,Y,Y
+F0044,SC0053,S10,Nozzle drip after dispense on chamber 1,HW04,SW03,Process,N,,C11,Y,Y
+F0045,SC0055,S05,Wafer slip alarm at robot hand-off on chamber 4,HW02,SW02,After-sales,N,,C04,Y,Y
+F0046,SC0056,S07,Wafer chipping or breakage in chamber on chamber 2,HW03,SW03,After-sales,N,,,N,Y
+F0047,SC0057,S24,Wafer edge defects after plating on cell 3,HW12,SW06,Process,N,,C36,Y,Y
+F0048,SC0057,S17,Plating thickness or uniformity out of spec on cell 4,HW12,SW06,Process,N,,C35,Y,Y
+F0049,SC0058,S01,FOUP door open failure at load port on tank 2,HW01,SW05,After-sales,N,,C39,N,Y
+F0050,SC0059,S07,Wafer chipping or breakage in chamber on chamber 2,HW03,SW03,After-sales,N,,C04,Y,Y
+F0051,SC0061,S21,Chemical leak sensor triggered on cell 2,HW08,SW07,Safety,N,,C19,Y,Y
+F0052,SC0062,S19,Robot gripper did not release wafer on chamber 2,HW02,SW02,R&D,Y,gripper cannot open,C20,Y,Y
+F0053,SC0063,S09,Chemical temperature out of range on chamber 3,HW06,SW04,After-sales,N,,C09,Y,N
+F0054,SC0065,S01,FOUP door open failure at load port on chamber 8,HW01,SW02,After-sales,N,,C01,Y,Y
+F0055,SC0066,S12,Particle adders above spec after clean on chamber 5,HW18,SW03,Process,N,,C13,Y,Y
+F0056,SC0067,S08,Chemical flow rate out of range on chamber 2,HW05,SW04,After-sales,N,,C08,Y,Y
+F0057,SC0068,S12,Particle adders above spec after clean on chamber 1,HW18,SW03,Process,N,,C26,Y,Y
+F0058,SC0070,S20,Chamber lid seal leak on chamber 8,HW18,SW03,R&D,Y,chamber lid seal leak (new),C18,N,Y
+F0059,SC0071,S22,Watermark or particles after drying on chamber 7,HW04,SW03,Process,N,,C24,Y,Y
+F0060,SC0072,S01,FOUP door open failure at load port on cell 6,HW01,SW02,After-sales,N,,C39,Y,Y
+F0061,SC0073,S05,Wafer slip alarm at robot hand-off on chamber 7,HW02,SW02,After-sales,N,,C05,Y,Y
+F0062,SC0074,S05,Wafer slip alarm at robot hand-off on chamber 8,HW02,SW02,After-sales,N,,C05,Y,Y
+F0063,SC0075,S19,Robot gripper did not release wafer on chamber 2,HW02,SW02,R&D,N,,C20,Y,Y
+F0064,SC0076,S20,Chamber lid seal leak on chamber 6,HW18,SW03,R&D,Y,"lid leakage, chamber",C18,Y,Y
+F0065,SC0077,S04,End-effector vacuum not reached (wafer not detected) on chamber 6,HW02,SW02,After-sales,N,,C27,Y,Y
+F0066,SC0078,S04,End-effector vacuum not reached (wafer not detected) on chamber 5,HW02,SW02,After-sales,N,,C27,Y,Y
+F0067,SC0079,S03,Robot axis servo error on chamber 6,HW02,SW02,After-sales,N,,C28,Y,Y
+F0068,SC0081,S05,Wafer slip alarm at robot hand-off on chamber 4,HW02,SW02,After-sales,N,,C05,Y,Y
+F0069,SC0082,S04,End-effector vacuum not reached (wafer not detected) on chamber 6,HW02,SW02,After-sales,N,,C05,Y,Y
+F0070,SC0084,S14,Recipe download failure from host on tank 2,HW17,SW01,Software,N,,C14,Y,Y
+F0071,SC0085,S12,Particle adders above spec after clean on chamber 5,HW18,SW03,Process,N,,C25,Y,N
+F0072,SC0086,S22,Watermark or particles after drying on chamber 7,HW04,SW03,Process,N,,C24,Y,Y
+F0073,SC0087,S20,Chamber lid seal leak on chamber 4,HW18,SW03,R&D,N,,C18,Y,Y
+F0074,SC0088,S13,Etch or clean uniformity out of spec on chamber 7,HW04,SW03,Process,N,,C10,Y,Y
+F0075,SC0089,S14,Recipe download failure from host on chamber 2,HW17,SW01,Software,N,,C14,Y,Y
+F0076,SC0091,S08,Chemical flow rate out of range on tank 3,HW05,SW04,After-sales,N,,C08,Y,Y
+F0077,SC0092,S04,End-effector vacuum not reached (wafer not detected) on chamber 4,HW02,SW02,After-sales,N,,C04,N,N
+F0078,SC0094,S08,Chemical flow rate out of range on chamber 7,HW05,SW04,After-sales,N,,,N,N
+F0079,SC0095,S06,Spin chuck speed error on chamber 8,HW03,SW03,After-sales,N,,C09,Y,Y
+F0080,SC0097,S01,FOUP door open failure at load port on chamber 2,HW01,SW02,After-sales,N,,,N,Y
+F0081,SC0098,S02,Wafer mapping error at load port on chamber 3,HW01,SW02,After-sales,N,,C40,N,N
+F0082,SC0100,S08,Chemical flow rate out of range on chamber 5,HW05,SW04,After-sales,N,,C07,Y,Y
+F0083,SC0100,S05,Wafer slip alarm at robot hand-off on chamber 8,HW02,SW02,After-sales,N,,C04,Y,Y
+F0084,SC0101,S07,Wafer chipping or breakage in chamber on chamber 7,HW03,SW03,After-sales,N,,C04,Y,Y
+F0085,SC0102,S22,Watermark or particles after drying on chamber 4,HW04,SW03,Process,N,,C24,Y,Y
+F0086,SC0103,S15,Host communication timeout (HSMS T3/T7) on tank 6,HW17,SW01,Software,N,,C38,N,N
+F0087,SC0104,S06,Spin chuck speed error on chamber 7,HW03,SW03,After-sales,N,,C21,Y,Y
+F0088,SC0105,S19,Robot gripper did not release wafer on chamber 4,HW02,SW02,R&D,N,,C20,Y,Y
+F0089,SC0106,S22,Watermark or particles after drying on chamber 2,HW04,SW03,Process,N,,,N,Y
+F0090,SC0108,S20,Chamber lid seal leak on chamber 5,HW18,SW03,R&D,N,,C18,Y,Y
+F0091,SC0109,S05,Wafer slip alarm at robot hand-off on cell 6,HW02,SW02,After-sales,N,,C05,N,N
+F0092,SC0110,S05,Wafer slip alarm at robot hand-off on cell 6,HW02,SW02,After-sales,N,,C04,Y,Y
+F0093,SC0112,S22,Watermark or particles after drying on chamber 4,HW04,SW03,Process,N,,C09,Y,Y
+F0094,SC0113,S17,Plating thickness or uniformity out of spec on cell 2,HW12,SW06,Process,N,,C16,Y,Y
+F0095,SC0114,S23,Rinse resistivity not reached after quick dump rinse on tank 1,HW10,SW05,Process,N,,C34,N,N
+F0096,SC0115,S05,Wafer slip alarm at robot hand-off on chamber 4,HW02,SW02,After-sales,N,,C05,Y,Y
+F0097,SC0116,S05,Wafer slip alarm at robot hand-off on chamber 2,HW02,SW02,After-sales,N,,C05,Y,Y
+F0098,SC0117,S24,Wafer edge defects after plating on cell 4,HW12,SW06,Process,N,,C36,Y,Y
+F0099,SC0117,S17,Plating thickness or uniformity out of spec on cell 2,HW12,SW06,Process,N,,C16,Y,N
+F0100,SC0118,S04,End-effector vacuum not reached (wafer not detected) on chamber 3,HW02,SW02,After-sales,N,,C05,Y,Y
+F0101,SC0119,S05,Wafer slip alarm at robot hand-off on chamber 4,HW02,SW02,After-sales,N,,C04,Y,Y
+F0102,SC0120,S01,FOUP door open failure at load port on tank 3,HW01,SW05,After-sales,N,,C39,Y,Y
+F0103,SC0121,S22,Watermark or particles after drying on chamber 2,HW04,SW03,Process,N,,C09,Y,Y
+F0104,SC0122,S24,Wafer edge defects after plating on cell 5,HW12,SW06,Process,N,,,N,Y
+F0105,SC0124,S02,Wafer mapping error at load port on cell 5,HW01,SW02,After-sales,N,,C02,Y,Y

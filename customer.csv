@@ -1,0 +1,6 @@
+customer_id,name,fab_type
+CU01,Fab A,Foundry
+CU02,Fab B,Memory
+CU03,Fab C,Foundry
+CU04,Fab D,Advanced Packaging
+CU05,Fab E,Memory

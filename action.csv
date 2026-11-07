@@ -1,0 +1,44 @@
+action_id,name
+A01,Realign placement sensor
+A02,Re-teach robot position
+A03,Replace end-effector vacuum pad
+A04,Replace robot servo amplifier
+A05,Reset alarm and re-run
+A06,Replace spin chuck pins
+A07,Recalibrate flow meter
+A08,Replace chemical filter
+A09,Restore recipe parameters from backup
+A10,Replace heater thermocouple
+A11,Adjust suck-back valve
+A12,Repair exhaust damper
+A13,Replace megasonic generator board
+A14,Correct host communication settings
+A15,Recalibrate concentration sensor
+A16,Replace anode
+A17,Replace rectifier output board
+A18,Replace chamber lid O-ring
+A19,Retighten or replace drain fitting
+A20,Clean mapping sensor
+A21,Increase monitoring frequency
+A22,Run dummy wafers before production
+A23,Replace spin motor encoder
+A24,Request fab facility check (exhaust or DIW)
+A25,Update controller software version
+A26,Replace gripper actuator spring
+A27,Clean and readjust N2/IPA dry nozzle
+A28,Clean chamber and nozzle (chamber PM)
+A29,Re-prime filter and purge dispense line
+A30,Clear or replace robot vacuum line
+A31,Replace robot flex cable
+A32,Replace heater element
+A33,Replace pump diaphragm
+A34,Replace replenishment valve
+A35,Replace IPA vapor flow controller
+A36,Replace worn carrier guides
+A37,Replace quick dump rinse valve
+A38,Adjust additive dosing after CVS analysis
+A39,Clean and deplate contact ring
+A40,Replace lip seal
+A41,Replace network cable or switch port
+A42,Readjust load port door and clamp
+A43,Notify customer and re-seat wafers in FOUP

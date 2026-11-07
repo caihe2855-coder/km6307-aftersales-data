@@ -1,0 +1,8 @@
+sw_id,name,controls_hw_ids
+SW01,Equipment Controller and Host Communication,HW17
+SW02,Single-Wafer Transfer Control,HW01;HW02
+SW03,Single-Wafer Process Recipe Control,HW03;HW04;HW07;HW18
+SW04,Chemical Supply Control,HW05;HW06
+SW05,Batch Transfer and Bath Control,HW01;HW09;HW10;HW11
+SW06,Plating Process Control,HW12;HW13;HW14;HW15
+SW07,Safety Interlock Monitor,HW08;HW16

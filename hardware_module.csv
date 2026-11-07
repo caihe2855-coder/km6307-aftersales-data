@@ -1,0 +1,19 @@
+hw_id,name,subsystem
+HW01,Load Port and EFEM,Wafer Handling
+HW02,Wafer Transfer Robot,Wafer Handling
+HW03,Spin Chuck,Process Chamber
+HW04,Dispense Arm and Nozzle,Process Chamber
+HW05,Chemical Delivery System,Chemical Supply
+HW06,Chemical Heater and Temperature Control,Chemical Supply
+HW07,Megasonic Unit,Process Chamber
+HW08,Exhaust and Drain System,Facilities
+HW09,Batch Carrier Robot,Wafer Handling
+HW10,Batch Process Tank,Process Bath
+HW11,Batch IPA Dryer,Drying
+HW12,Plating Cell,Plating
+HW13,Anode Assembly,Plating
+HW14,Plating Power Supply (Rectifier),Electrical
+HW15,Spin Rinse Dry Station,Drying
+HW16,Safety Interlock and Leak Detection,Safety
+HW17,Equipment Controller PC,Electrical
+HW18,"Process Chamber Body, Lid and Splash Guard",Process Chamber

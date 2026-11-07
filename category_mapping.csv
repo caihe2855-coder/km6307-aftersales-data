@@ -1,0 +1,5 @@
+category_raw,symptom_id,mapped_category,new_subclass
+robot gripper abnormal,S19,FC_Robot,N
+gripper cannot open,S19,FC_Robot,N
+chamber lid seal leak (new),S20,FC_ChamberSeal,Y
+"lid leakage, chamber",S20,FC_ChamberSeal,Y

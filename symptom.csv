@@ -1,0 +1,25 @@
+symptom_id,fault_code,name,category_id
+S01,LP-101,FOUP door open failure at load port,FC_LoadPort
+S02,LP-102,Wafer mapping error at load port,FC_LoadPort
+S03,RB-102,Robot axis servo error,FC_Robot
+S04,RB-103,End-effector vacuum not reached (wafer not detected),FC_Robot
+S05,RB-101,Wafer slip alarm at robot hand-off,FC_Robot
+S06,CK-201,Spin chuck speed error,FC_Chuck
+S07,CK-202,Wafer chipping or breakage in chamber,FC_Chuck
+S08,CH-204,Chemical flow rate out of range,FC_FlowControl
+S09,CH-205,Chemical temperature out of range,FC_TempControl
+S10,DS-301,Nozzle drip after dispense,FC_Dispense
+S11,EX-401,Exhaust pressure low alarm,FC_Safety
+S12,PR-301,Particle adders above spec after clean,FC_Particle
+S13,PR-302,Etch or clean uniformity out of spec,FC_Uniformity
+S14,SW-501,Recipe download failure from host,FC_SoftwareComm
+S15,SW-502,Host communication timeout (HSMS T3/T7),FC_SoftwareComm
+S16,BT-601,Bath level or concentration alarm,FC_BathControl
+S17,EP-701,Plating thickness or uniformity out of spec,FC_Uniformity
+S18,EP-702,Plating current abnormal,FC_Plating
+S19,RB-104,Robot gripper did not release wafer,
+S20,CH-206,Chamber lid seal leak,
+S21,SF-801,Chemical leak sensor triggered,FC_Safety
+S22,DR-901,Watermark or particles after drying,FC_Drying
+S23,RN-902,Rinse resistivity not reached after quick dump rinse,FC_Rinse
+S24,EP-703,Wafer edge defects after plating,FC_Plating

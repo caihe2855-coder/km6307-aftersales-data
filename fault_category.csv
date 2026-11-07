@@ -1,0 +1,21 @@
+Class,Label,subClassOf
+FaultCategory,Fault category,
+FC_WaferHandling,Wafer handling issue,FaultCategory
+FC_LoadPort,Load port issue,FC_WaferHandling
+FC_Robot,Robot issue,FC_WaferHandling
+FC_ProcessChamber,Process chamber issue,FaultCategory
+FC_Chuck,Spin chuck issue,FC_ProcessChamber
+FC_Dispense,Dispense issue,FC_ProcessChamber
+FC_Plating,Plating cell issue,FC_ProcessChamber
+FC_ChamberSeal,Chamber seal issue,FC_ProcessChamber
+FC_ChemicalSupply,Chemical supply issue,FaultCategory
+FC_FlowControl,Chemical flow control issue,FC_ChemicalSupply
+FC_TempControl,Chemical temperature control issue,FC_ChemicalSupply
+FC_BathControl,Bath level and concentration issue,FC_ChemicalSupply
+FC_ProcessResult,Process result issue,FaultCategory
+FC_Particle,Particle issue,FC_ProcessResult
+FC_Uniformity,Uniformity or thickness issue,FC_ProcessResult
+FC_Drying,Drying and watermark issue,FC_ProcessResult
+FC_Rinse,Rinse quality issue,FC_ProcessResult
+FC_SoftwareComm,Software and communication issue,FaultCategory
+FC_Safety,Safety and facilities issue,FaultCategory
